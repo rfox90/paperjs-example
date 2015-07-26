@@ -4,6 +4,7 @@
 
 <body>
 	{{> canvas}}
+	{{> canvas2}}
 </body>
 
 <head>
@@ -11,5 +12,9 @@
 </head>
 
 <template name="canvas">
-<canvas id="framePreview" resize></canvas>
+	<canvas id="framePreview" class="canvas" resize></canvas>
+</template>
+
+<template name="canvas2">
+	<canvas id="framePreview2" class="canvas" resize></canvas>
 </template>
